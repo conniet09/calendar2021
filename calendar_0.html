@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Calendar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="calendar_0.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="calendar_0.css" />
+
+
+	</head>
+
+	<body onload='showCal(curMonth, curYear)'>
+		<div class="container-fluid">
+			<div class="card">
+				<div class="btn-logout">
+					<button type="button" class="btn btn-link align-ri" onclick='logout()'>Log out</button>
+				</div>
+				<div class="header form-inline">
+					<button class="btn btn-link col-sm-2" id="previous" onclick="previous()">&#10094;</button>
+					<h3 class="month-year col-sm-8" id="monthAndYear"></h3>
+					<button class="btn btn-link col-sm-2" id="next" onclick="next()">&#10095;</button>
+				</div>
+				<table class="table table-bordered table-responsive-sm" id="calendar">
+					<thead>
+						<tr>
+							<th>Sun</th>
+							<th>Mon</th>
+							<th>Tue</th>
+							<th>Wed</th>
+							<th>Thu</th>
+							<th>Fri</th>
+							<th>Sat</th>
+						</tr>
+					</thead>
+
+					<tbody id="calendar-body">
+
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+
+	</body>
+
+</html>
