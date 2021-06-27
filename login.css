@@ -1,0 +1,100 @@
+* {
+	font-family: "Helvetica", sans-serif;
+}
+
+body {
+	  background: linear-gradient(to right, #06beb6, #48b1bf);
+}
+
+.container-fluid {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-radius: 25px;
+	border-color: white;
+	max-width: 50%;
+	height: 600px;
+	box-shadow: 10px 10px #CFD6DE;
+	background-color: white;
+}
+
+form {
+	margin: 0 auto;
+	width: 320px;
+	padding: 10px;
+}
+
+
+.emailbox {
+	margin-bottom: 15px;
+}
+
+.ebox {
+	width: 300px;
+	height: 35px;
+
+}
+
+.passwordbox {
+	margin-bottom: 15px;
+}
+
+.pbox {
+	width: 300px;
+	height: 35px;
+}
+
+input {
+	padding-left: 10px;
+}
+
+#btn-login {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	border: 2px solid #CFD6DE;
+	border-radius: 10px;
+	background-color: white;
+	color: #91BCEF;
+	width: 300px;
+	font-size: 20px;
+}
+
+#btn-login:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+a:hover {
+	color: #91BCEF;
+}
+
+.form-check-input {
+	color: #91BCEF;
+}
+
+
+.checkbox{
+	width: 150px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.link-signup {
+	text-align:center;
+}
+
+#loginimage {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+#logoattr {
+	text-align: center;
+}
